@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// O(NlogNlogN) or O(N) estimated
 vector<bool> primes(101,true);
 void sieve()
 {
