@@ -1,3 +1,10 @@
+// GCD(A,B) -> product of min(pow(p1,a1),pow(p2,a2)) for each prime factor
+// LCM(A,B) -> product of max(pow(p1,a1),pow(p2,a2)) for each prime factor
+// GCD(A,B,C,...) -> GCD(GCD(GCD(A,B),C),...)
+// LCM(A,B,C,...) -> LCM(LCM(LCM(A,B),C),...)
+// GCD(A,B) * LCM(A,B) = A * B
+// GCD(A,A+1) = 1
+
 #include<bits/stdc++.h>
 using namespace std;
 
