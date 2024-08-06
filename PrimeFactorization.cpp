@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// O(sqrt(N)⋅log(N))
 vector<int> PrimeFact(int n)
 {
     vector<int> fact;
