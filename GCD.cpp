@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// O(min(A,B))
 int GreatestCommonDivisor(int a,int b)
 {
     int res=min(a,b);
@@ -13,6 +14,7 @@ int GreatestCommonDivisor(int a,int b)
     return res;
 }
 
+// O(log(min(A,B)))
 int GreatestCommonDivisor(int a,int b)
 {
     if(a==0)
@@ -20,6 +22,7 @@ int GreatestCommonDivisor(int a,int b)
     return GreatestCommonDivisor(b%a,a);
 }
 
+// O(log(min(A,B))) 
 int GreatestCommonDivisor(int a,int b)
 {
     return gcd(a,b);
